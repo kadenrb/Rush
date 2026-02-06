@@ -560,6 +560,7 @@ MonoBehaviour:
   levelPrefabs:
   - {fileID: 5249107945130704130, guid: 761a0734e7d29644d861386589cb418a, type: 3}
   - {fileID: 9192521654465273536, guid: ccc4cf3d52100fe48ac8495735f782f6, type: 3}
+  - {fileID: 8005544209657762945, guid: a6c55745bf15fd748b2393d2ca636073, type: 3}
   currentLevelIndex: 0
 --- !u!4 &1433284422
 Transform:
