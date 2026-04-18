@@ -54,7 +54,6 @@ public class ShipSlider : MonoBehaviour
 	{
 		// Reset kinematic just in case and show active color
 		rb.isKinematic = true;
-		GetComponent<Renderer>().material.color = Color.red;
 
 		// Calculate depth and offset for dragging
 		zCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
@@ -147,9 +146,6 @@ public class ShipSlider : MonoBehaviour
 
 	void OnMouseUp()
 	{
-		// Reset to default color
-		GetComponent<Renderer>().material.color = Color.white;
-
 		// Default offsets for 1x1 or odd-length ships
 		float offsetX = 0.5f;
 		float offsetZ = 0.5f;
